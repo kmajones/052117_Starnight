@@ -1,0 +1,20 @@
+nav{
+	margin:0 3em;
+	padding:1em 3em;
+	
+	ul{
+		display:flex;
+		flex-flow: row; 
+  		flex-wrap: wrap;
+  		padding: 0;
+	}	
+		li{
+			flex:1 1 auto;
+			list-style:none;
+			justify-content:center;
+			text-align:center;
+
+		}
+
+
+}
