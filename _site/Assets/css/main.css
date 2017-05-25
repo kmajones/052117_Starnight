@@ -141,7 +141,7 @@ td, th {
 
 .gigantic, .huge, .large, .bigger, .big,
 h1, h2, h3, h4, h5, h6 {
-  color: #49bcbc;
+  color: #F9F9F9;
   font-weight: bold; }
 
 .gigantic {
@@ -150,7 +150,7 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: -2px; }
 
 .huge, h1 {
-  font-size: 3.5em;
+  font-size: 2.5em;
   line-height: 1.05;
   letter-spacing: -1px;
   font-weight: 300; }
@@ -221,7 +221,7 @@ body {
   font-size: 16px;
   line-height: 1.4;
   font-family: 'Lato', sans-serif;
-  color: blue;
+  color: #F9F9F9;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%; }
 
@@ -239,8 +239,8 @@ body {
 
 .col-1 {
   -webkit-box-flex: 1;
-      -ms-flex: 1 2 auto;
-          flex: 1 2 auto;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
   text-align: center;
   padding: 5em 10em;
   margin: 0; }
@@ -278,29 +278,55 @@ nav {
             justify-content: center;
     text-align: center; }
 
+button {
+  width: 275px;
+  height: 70px;
+  box-shadow: none;
+  border: none;
+  border-radius: 5px;
+  background-color: #49bcbc;
+  margin: 50px 0;
+  font-size: 22px; }
+
 section.hero {
   width: 100%;
-  height: 100%;
+  height: 600px;
   background: url("../../Assets/img/hero.png") center;
   background-size: cover; }
   section.hero p.hero-p {
     color: #d0e7e9;
     font-style: italic; }
+  section.hero .col-1 {
+    margin: 0 150px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
 
-section.introduction div.col-3 {
-  width: calc(55% - 200px);
-  float: left;
-  margin: 60px 0;
-  padding: 20px; }
-
-section.introduction div.col-3:nth-child(1) {
-  margin-left: 100px; }
-
-section.introduction div.col-3:nth-child(2) {
-  width: calc(30% - 200px);
-  margin: 0;
-  padding: 0;
-  bottom: 0; }
-
-section.introduction .cf {
-  clear: both; }
+section.introduction {
+  width: 100%;
+  background-color: #e8b968;
+  height: 100%;
+  margin: auto;
+  height: auto;
+  overflow: auto; }
+  section.introduction div.col-3 {
+    width: calc(55% - 200px);
+    float: left;
+    margin: 60px 70px;
+    padding: 20px 0 20px 20px;
+    position: relative;
+    overflow: hidden; }
+  section.introduction div.col-3:nth-child(1) {
+    margin-left: 100px; }
+  section.introduction div.col-3:nth-child(2) {
+    width: calc(45%);
+    height: 870px;
+    overflow: auto;
+    margin: 0 -20px 0 0;
+    padding: 0;
+    bottom: 0;
+    right: 0;
+    background-color: red;
+    background-image: cover; }
+  section.introduction .cf {
+    clear: both; }
