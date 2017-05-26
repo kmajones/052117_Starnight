@@ -13,6 +13,10 @@ section.introduction{
 		padding:20px 0 20px 20px;
 		position:relative;
 		overflow:hidden;
+
+		h1{
+			margin:0 0 50px 0;
+		}
 	}
 
 	div.col-3:nth-child(1) {
@@ -21,17 +25,17 @@ section.introduction{
 	
 	div.col-3:nth-child(2) {
     width:calc(45%);
-    height:870px;
+    float:right;
+    height:auto;
 	overflow:auto;
-    margin:0 -20px 0 0;
+    margin:100px -20px 0 0;
     padding:0;
-    bottom:0;
     right:0;
     // position:absolute;
 
-	background-color:red;
-    // background:url('http://lorempixel.com/600/700/');
+    background:url('../img/iPad.png') no-repeat;
     background-image:cover;
+    height:100vh;
 	
 	}
 	.cf{

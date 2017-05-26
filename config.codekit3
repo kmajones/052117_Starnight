@@ -1156,6 +1156,58 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/src\/Assets\/css\/2-modules\/_buttons.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/_site\/Assets\/css\/css\/_buttons.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/src\/Assets\/css\/2-modules\/_grid.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/_site\/Assets\/css\/css\/_grid.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/src\/Assets\/css\/2-modules\/_imgTreatments.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/_site\/Assets\/css\/css\/_imgTreatments.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/src\/Assets\/css\/2-modules\/_nav.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/_site\/Assets\/css\/css\/_nav.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/src\/Assets\/css\/3-layouts\/_-pages-index.sass": {
 		"aP": 1,
 		"bl": 0,
@@ -1165,6 +1217,32 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/_site\/Assets\/css\/css\/_-pages-index.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/src\/Assets\/css\/3-layouts\/_hero.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/_site\/Assets\/css\/css\/_hero.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/src\/Assets\/css\/3-layouts\/_introduction.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/_site\/Assets\/css\/css\/_introduction.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1182,15 +1260,18 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/src\/Assets\/css\/main.css": {
+	"\/src\/Assets\/css\/3-layouts\/_testimonials.scss": {
 		"aP": 1,
 		"bl": 0,
-		"ft": 16,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/_site\/Assets\/css\/main-min.css",
+		"oAP": "\/_site\/Assets\/css\/css\/_testimonials.css",
 		"oF": 0,
-		"oS": 0
+		"oS": 0,
+		"uL": 1
 		},
 	"\/src\/Assets\/css\/main.scss": {
 		"aP": 1,
@@ -1200,7 +1281,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/_site\/main.css",
+		"oAP": "\/_site\/Assets\/css\/main.css",
 		"oF": 2,
 		"oS": 0,
 		"uL": 1
@@ -1210,6 +1291,48 @@
 		"oA": 2,
 		"oAP": "\/_site\/Assets\/img\/.gitignore",
 		"oF": 0
+		},
+	"\/src\/Assets\/img\/hero.png": {
+		"ft": 32768,
+		"iS": 1683721,
+		"oA": 0,
+		"oAP": "\/_site\/Assets\/img\/hero.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/Assets\/img\/iPad.jpg": {
+		"ft": 16384,
+		"iS": 24430,
+		"oA": 0,
+		"oAP": "\/_site\/Assets\/img\/iPad.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/src\/Assets\/img\/iPad.png": {
+		"ft": 32768,
+		"iS": 20403,
+		"oA": 0,
+		"oAP": "\/_site\/Assets\/img\/iPad.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/Assets\/img\/testimonial.jpg": {
+		"ft": 16384,
+		"iS": 23305,
+		"oA": 0,
+		"oAP": "\/_site\/Assets\/img\/testimonial.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
 		},
 	"\/src\/Assets\/js\/jquery-3.1.1.min.js": {
 		"ft": 64,

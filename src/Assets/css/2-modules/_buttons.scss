@@ -1,4 +1,4 @@
-button{
+button, button.outline{
 	width:275px;
 	height:70px;
 	box-shadow: none;
@@ -9,3 +9,10 @@ button{
 	margin:50px 0;
 	font-size:22px;
 }
+
+button.outline{
+
+	border: 3px solid #ffffff;
+	background-color:transparent;
+
+	}

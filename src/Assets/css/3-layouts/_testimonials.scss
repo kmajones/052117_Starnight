@@ -1,0 +1,21 @@
+section.testimonials{
+	background-color:#5b6869;
+
+		.arrow {
+		margin: 50px;
+		padding: 50px;
+		position: relative;
+		bottom:0;
+		z-index:2;
+    }
+	   &:after {
+	       content: "";
+	       position: absolute;
+	       top: 100%;
+	       left: 50px;
+	       border-top: 50px solid green;
+	       border-top-color: inherit; 
+	       border-left: 50px solid transparent;
+	       border-right: 50px solid transparent; 
+	    }
+}
