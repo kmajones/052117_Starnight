@@ -6,7 +6,7 @@ section.introduction{
 	height:auto;
 	overflow:auto;
 
-	div.col-3{
+	div.col-2{
 		width:calc(55% - 200px);
 		float:left;
 		margin:60px 70px;		
@@ -19,11 +19,11 @@ section.introduction{
 		}
 	}
 
-	div.col-3:nth-child(1) {
+	div.col-2:nth-child(1) {
     margin-left:100px;
 	}
 	
-	div.col-3:nth-child(2) {
+	div.col-2:nth-child(2) {
     width:calc(45%);
     float:right;
     height:auto;
@@ -31,7 +31,8 @@ section.introduction{
     margin:100px -20px 0 0;
     padding:0;
     right:0;
-    // position:absolute;
+    bottom:0;
+   
 
     background:url('../img/iPad.png') no-repeat;
     background-image:cover;

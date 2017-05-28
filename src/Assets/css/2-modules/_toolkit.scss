@@ -1,0 +1,38 @@
+
+//Vertical Line styling
+.verticalLine {
+	display:inline-block;
+	position:absolute;
+	border-left: 1px solid #7a8387;
+	width:1px;
+	height:50%;
+	left:50%;
+	margin-top:150px;
+
+}
+
+//Arrow 
+	
+	div.arrow {
+		margin: 0;
+		padding: 50px;
+		position: relative;
+		width:100%;
+		z-index:2;
+		display:block;
+    }
+
+	div.arrow:after {
+    content:'';
+    position: absolute;
+    top: 0;
+    left: calc(50% + 25px) ;
+    margin-left: -50px;
+    width: 0;
+    height: 0;
+    border-top: solid 40px #5b6869;
+    border-left: solid 25px transparent;
+    border-right: solid 25px transparent;
+	display:block;
+
+	}
