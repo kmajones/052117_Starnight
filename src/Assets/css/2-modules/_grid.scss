@@ -1,10 +1,15 @@
-.container{
+.container, footer.info{
 	width:100%;
 	display:flex;
 	flex-direction:row;
 	flex-wrap: wrap;
 }
 
+.col{
+flex:1 1 auto;
+margin:0;
+flex-basis:calc(33.3% - 300px);
+}
 
 .col-3{
 flex:1 1 auto;
@@ -38,7 +43,7 @@ width:calc(50% - 200px);
 	}
 }
 
-section.hero, section.testimonials, section.information, section.introduction, section.colors{
+section.hero, section.testimonials, section.information, section.introduction, section.colors, footer{
 width:100%;
 display:block;
 overflow:auto;
