@@ -156,15 +156,15 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 300; }
 
 .large, h2 {
-  font-size: 42px;
+  font-size: 2.47em;
   line-height: 1.14; }
 
 .bigger, h3 {
-  font-size: 15px;
+  font-size: 1em;
   line-height: 1.1em; }
 
 .big, h4 {
-  font-size: 22px;
+  font-size: .8em;
   line-height: 1.38; }
 
 .small, small {
@@ -179,7 +179,7 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
   margin: 0 0 20px 0;
-  line-height: 1.875;
+  line-height: 1.875em;
   font-family: 'Lato', sans-serif; }
 
 em {
@@ -294,10 +294,16 @@ section.hero, section.testimonials, section.information, section.introduction, s
         -ms-flex-pack: center;
             justify-content: center; }
 
+@media screen and (max-width: 1000px) {
+  .col-1 {
+    -ms-flex-preferred-size: calc(100%);
+        flex-basis: calc(100%);
+    padding: 0; } }
+
 nav {
   background-color: #000;
   margin: 0;
-  padding: 1em 3em; }
+  padding: .3em 1em; }
   nav ul {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -319,47 +325,126 @@ nav {
             justify-content: center;
     text-align: center; }
   nav a:hover, nav a:active {
-    border-bottom: 1px solid #fff; }
+    border-bottom: 1px solid #fff;
+    -webkit-transition: .5s all ease-in-out;
+    transition: .5s all ease-in-out; }
+  nav li {
+    position: relative;
+    vertical-align: middle;
+    color: #fff;
+    line-height: 50px;
+    text-align: center;
+    padding: 0;
+    cursor: pointer;
+    border: 2px solid transparent;
+    -webkit-transition: 0.5s;
+    transition: 0.5s; }
+  nav li:hover {
+    border: 2px solid transparent;
+    color: #FFF; }
+  nav li::before, nav li::after {
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    -webkit-transform: scale(0);
+    -webkit-transition: 0.5s;
+    transition: 0.5s; }
+  nav .nav-outline::before {
+    border-bottom: 2px solid #FFF;
+    border-left: 0;
+    -webkit-transform-origin: 0% 100%; }
+  nav .nav-outline::after {
+    border-top: 0;
+    border-right: 0;
+    -webkit-transform-origin: 50% 50%; }
+  nav li:hover::after, nav li:hover::before {
+    -webkit-transform: scale(1); }
 
-button, button.outline {
+button {
   width: 275px;
   height: 70px;
   box-shadow: none;
   border: none;
   border-radius: 5px;
+  -webkit-transition: background-color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
   margin: 50px 0;
   font-size: 22px; }
 
 .melon {
   background-color: #f69679; }
+  .melon:hover {
+    background-color: #f9b8a4; }
 
-button.outline {
-  border: 3px solid #ffffff;
-  -webkit-transition: color .5s;
-  transition: color .5s; }
+.cta {
+  background-color: #49bcbc; }
+  .cta:hover {
+    background-color: #94d7d7; }
 
-button.outline:before {
+.outline {
+  border: 3px solid white;
+  background-color: transparent; }
+
+.box {
+  position: relative;
+  vertical-align: middle;
+  color: #fff;
+  display: inline-block;
+  line-height: 60px;
+  text-align: center;
+  padding: 0 20px;
+  cursor: pointer;
+  border: 3px solid #fff;
+  -webkit-transition: 0.5s;
+  transition: 0.5s; }
+
+.box:hover {
+  border: 3px solid rgba(0, 160, 80, 0);
+  color: #FFF; }
+
+.box::before, .box::after {
+  width: 100%;
+  height: 100%;
+  z-index: 3;
   content: '';
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
-  background: #49bcbc;
-  z-index: -1;
-  -webkit-transform: scaleX(0);
-          transform: scaleX(0);
-  -webkit-transition: -webkit-transform .5s;
-  transition: -webkit-transform .5s;
-  transition: transform .5s;
-  transition: transform .5s, -webkit-transform .5s; }
+  box-sizing: border-box;
+  -webkit-transform: scale(0);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out; }
 
-button.outline:hover {
-  color: #fff; }
+.outline::before {
+  border-bottom: 3px solid #FFF;
+  border-left: 0;
+  -webkit-transform-origin: 0% 100%; }
 
-button.outline:hover:before {
-  -webkit-transform: scaleX(1);
-          transform: scaleX(1); }
+.outline::after {
+  border-top: 0;
+  border-right: 0;
+  -webkit-transform-origin: 50% 50%; }
+
+.box:hover::after, .box:hover::before {
+  -webkit-transform: scale(1); }
+
+@media screen and (max-width: 999px) {
+  button {
+    width: 100%;
+    max-width: 275px;
+    height: 70px;
+    box-shadow: none;
+    border: none;
+    border-radius: 5px;
+    -webkit-transition: background-color 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
+    margin: 50px 0;
+    font-size: 22px; } }
 
 div.circle-img {
   border-radius: 50%;
@@ -418,14 +503,14 @@ section.introduction {
   height: 100%;
   margin: auto;
   height: auto;
-  overflow: auto; }
+  overflow: auto;
+  position: relative; }
   section.introduction div.col-2 {
     width: calc(55% - 200px);
     float: left;
     margin: 60px 70px 0 70px;
     padding: 20px 0 20px 20px;
-    position: relative;
-    overflow: hidden; }
+    max-width: 500px; }
     section.introduction div.col-2 h1 {
       margin: 0 0 50px 0; }
   section.introduction div.col-2:nth-child(1) {
@@ -439,14 +524,43 @@ section.introduction {
     padding: 0;
     right: 0;
     bottom: 0;
+    position: absolute;
+    z-index: 0;
+    overflow: hidden;
+    margin: 100px 0 0 0;
     background: url("../img/iPad.png") no-repeat;
     background-image: cover;
     height: 100vh; }
   section.introduction .cf {
     clear: both; }
 
+/*Media Query */
+@media screen and (max-width: 999px) {
+  section.introduction div.col-2 {
+    width: calc(100%);
+    float: center;
+    margin: 50px 0;
+    padding: 0; }
+  section.introduction div.col-2:nth-child(2) {
+    display: none;
+    width: calc(100%);
+    clear: both;
+    overflow: auto;
+    height: 100vh; }
+  section.introduction div.col-2:nth-child(1) {
+    margin-left: 50px; } }
+
 section.testimonials {
   background-color: #5b6869; }
+
+@media screen and (max-width: 999px) {
+  section.testimonials div.col-1 {
+    width: calc(50%);
+    -webkit-box-flex: center;
+        -ms-flex: center;
+            flex: center;
+    margin: 100px auto;
+    padding: 0; } }
 
 section.information {
   background-color: white;
@@ -469,6 +583,14 @@ section.information {
     color: #7a8387; }
   section.information h3 {
     color: #7a8387; }
+
+@media screen and (max-width: 999px) {
+  section.information .col-4 {
+    margin: 0;
+    padding: 0;
+    width: calc(100%); }
+  section.information .verticalLine {
+    display: none; } }
 
 section.colors {
   margin: 100px 0;

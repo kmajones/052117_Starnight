@@ -3,3 +3,22 @@ section.testimonials{
 
 
 }
+
+
+@media screen and (max-width: 999px) {
+	section.testimonials{
+
+		div.col-1{
+			width:calc(50%);
+			flex:center;
+			margin:100px auto;		
+			padding:0;
+		
+		}
+	}	
+
+}
+
+
+
+

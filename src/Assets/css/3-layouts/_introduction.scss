@@ -5,14 +5,15 @@ section.introduction{
 	margin:auto;
 	height:auto;
 	overflow:auto;
+	position:relative;
 
 	div.col-2{
 		width:calc(55% - 200px);
 		float:left;
 		margin:60px 70px 0 70px;		
 		padding:20px 0 20px 20px;
-		position:relative;
-		overflow:hidden;
+		max-width: 500px;
+		
 
 		h1{
 			margin:0 0 50px 0;
@@ -32,6 +33,10 @@ section.introduction{
     padding:0;
     right:0;
     bottom:0;
+    position:absolute;
+    z-index:0;
+    overflow:hidden;
+	margin:100px 0 0 0;
    
 
     background:url('../img/iPad.png') no-repeat;
@@ -43,4 +48,45 @@ section.introduction{
 		clear:both;
 	}
 }
+
+
+/*Media Query */
+
+@media screen and (min-width: 1000px) {
+
+
+}
+
+
+@media screen and (max-width: 999px) {
+	section.introduction{
+
+		div.col-2{
+			width:calc(100%);
+			float:center;
+			margin:50px 0;		
+			padding:0;
+		
+		}
+
+
+		div.col-2:nth-child(2) {
+		    display:none;
+		    width:calc(100%);
+		    clear:both;
+			overflow:auto;
+		    
+		    height:100vh;
+		
+		}
+	}	
+
+section.introduction div.col-2:nth-child(1) {
+    margin-left: 50px;
+}
+
+}
+
+
+
 

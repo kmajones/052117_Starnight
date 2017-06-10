@@ -57,3 +57,17 @@ overflow:auto;
 	}
 
 }
+
+//Media Query 
+
+@media screen and (max-width: 1000px) {
+	.col-1{
+		flex-basis:calc(100%);
+		padding:0;
+	}
+
+}
+
+@media screen and (max-width: 640px) {
+	
+}

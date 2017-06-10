@@ -1208,6 +1208,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/src\/Assets\/css\/2-modules\/_toolkit.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/_site\/Assets\/css\/css\/_toolkit.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/src\/Assets\/css\/3-layouts\/_-pages-index.sass": {
 		"aP": 1,
 		"bl": 0,
@@ -1221,6 +1234,32 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/src\/Assets\/css\/3-layouts\/_colors.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/_site\/Assets\/css\/css\/_colors.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/src\/Assets\/css\/3-layouts\/_footer.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/_site\/Assets\/css\/css\/_footer.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/src\/Assets\/css\/3-layouts\/_hero.scss": {
 		"aP": 1,
 		"bl": 0,
@@ -1230,6 +1269,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/_site\/Assets\/css\/css\/_hero.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/src\/Assets\/css\/3-layouts\/_information.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/_site\/Assets\/css\/css\/_information.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1381,6 +1433,12 @@
 		"oA": 2,
 		"oAP": "\/_site\/index.html",
 		"oF": 2
+		},
+	"\/src\/notes.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/notes.txt",
+		"oF": 0
 		},
 	"\/src\/robots.txt": {
 		"ft": 8192,

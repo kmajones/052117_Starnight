@@ -25,3 +25,23 @@ section.information{
 
 
 }
+
+
+@media screen and (max-width: 999px) {
+	
+	section.information{
+		
+		.col-4{
+			margin:0;
+			padding:0;
+			width:calc(100%);
+		}
+
+		.verticalLine{
+			display:none;
+		}
+	}	
+
+}
+
+
