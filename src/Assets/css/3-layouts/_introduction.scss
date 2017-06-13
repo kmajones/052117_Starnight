@@ -52,29 +52,33 @@ section.introduction{
 
 /*Media Query */
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 680px) and (max-width: 999px) {
 
+	
+
+	
 
 }
 
 
 @media screen and (max-width: 999px) {
+	
 	section.introduction{
 
+		display:flex;
+
 		div.col-2{
-			width:calc(100%);
-			float:center;
-			margin:50px 0;		
-			padding:0;
+			// width:calc(100%);
+			justify-content:center;
+			margin:50px 0 0 70px;		
+			padding:20px;
+			max-width:550px;
 		
 		}
 
 
 		div.col-2:nth-child(2) {
 		    display:none;
-		    width:calc(100%);
-		    clear:both;
-			overflow:auto;
 		    
 		    height:100vh;
 		

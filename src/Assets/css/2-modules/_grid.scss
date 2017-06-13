@@ -66,6 +66,12 @@ overflow:auto;
 		padding:0;
 	}
 
+
+	.col-3{
+		flex:1 1 auto;
+		margin:0;
+		width:calc(50%-300px);
+	}
 }
 
 @media screen and (max-width: 640px) {
